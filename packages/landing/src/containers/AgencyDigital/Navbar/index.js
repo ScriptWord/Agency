@@ -17,6 +17,7 @@ import NavbarWrapper, {
 } from './navbar.style';
 import LogoImage from 'common/assets/image/agencyDigital/logo-5.png';
 
+
 import { data } from 'common/data/AgencyDigital';
 
 const Navbar = () => {
@@ -55,7 +56,7 @@ const Navbar = () => {
           />
           {/* <NavbarRight>
             <li>
-              <Link href="#">info@scriptword.ca</Link>
+              <Link href="#">support@scriptword.ca</Link>
             </li>
             <li>
               <Link href="#">+14168972720</Link>
@@ -92,7 +93,7 @@ const Navbar = () => {
       </Container>
 
       {/* start mobile menu */}
-      {/* <MobileMenu className={`mobile-menu ${mobileMenu ? 'active' : ''}`}>
+      <MobileMenu className={`mobile-menu ${mobileMenu ? 'active' : ''}`}>
         <Container>
           <Scrollspy
             className="menu"
@@ -119,7 +120,7 @@ const Navbar = () => {
             </li>
           </Scrollspy>
         </Container>
-      </MobileMenu> */}
+      </MobileMenu>
       {/* end of mobile menu */}
     </NavbarWrapper>
   );

@@ -6,6 +6,5 @@ const nextConfig = {
     domains: ['pbs.twimg.com'],
   },
 };
-
+//const nextConfig = { images: { domains: ['https://res.cloudinary.com','pbs.twimg.com'], loader: 'cloudinary', path: '', }, }
 module.exports = withPlugins([], nextConfig);
-//const nextConfig = { images: { domains: ['pbs.twimg.com'], loader: 'akamai', path: '', }, }
